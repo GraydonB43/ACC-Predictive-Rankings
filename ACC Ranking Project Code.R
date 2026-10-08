@@ -1,6 +1,3 @@
-getwd()
-setwd("/Users/graydon/Desktop/ACC Ranking Project")
-
 con <- dbConnect(RSQLite::SQLite(), "acc1819.db")
 dbListTables(con)
 dbListFields(con, "box_scores")
